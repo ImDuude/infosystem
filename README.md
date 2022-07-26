@@ -1,19 +1,13 @@
-# infosystem
+# infosystem @vue
 
-## Project setup
+## first git clone api
+
+### Project setup
 ```
-npm install
+npm init
 ```
 
-### Compiles and hot-reloads for development
+### Start 
 ```
 npm run serve
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
