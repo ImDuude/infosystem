@@ -3,7 +3,7 @@
   <div class="searchBar">
     <!-- Filter Search -->
       <div class="input-group mb-5">
-        <input type="search" class="form-control" v-model='searchQuery' placeholder="Student's Name" aria-label="Recipient's username" aria-describedby="button-addon2">
+        <input type="search" class="form-control" v-model='searchQuery' placeholder="Suchen ..." aria-label="Recipient's username" aria-describedby="button-addon2">
       </div>
   </div>
 
