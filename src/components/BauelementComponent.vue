@@ -2,7 +2,6 @@
   <div class="container">
     <hr>
     <h3 class="schrift"> Name | Gewicht | Länge | Breite | Hoehe</h3>
-      <!-- <button class="button-id" @click="showhide()">ID anzeigen lassen</button> -->
     <hr>
     <p class="error" v-if="error">{{ error }}</p>
     <div class="posts-container">

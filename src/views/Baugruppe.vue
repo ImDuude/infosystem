@@ -1,5 +1,8 @@
 <template>
-  <button variant="outline-success" id="show-modal" @click="showModal = true">Baugruppe hinzufügen</button>
+
+  <BaugruppeComponent />
+
+  <button class="button-modal" id="show-modal" @click="showModal = true">Baugruppe hinzufügen</button>
 
   <Teleport to="body">
     <!-- use the modal component, pass in the prop -->
@@ -10,16 +13,15 @@
     </modal>
   </Teleport>
 
-  <div class="container text-center  mt-5 mb-5">
+  <!-- <div class="container text-center  mt-5 mb-5">
      <div class="table-responsive my-5">
       
-      <!-- The table component -->
        <Table :fields='fields' :studentData ="studentData"></Table>
      </div>
  
-  </div>
+  </div> -->
 
-  <BaugruppeComponent />
+  
 
 </template>
 
