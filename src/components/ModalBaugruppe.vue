@@ -1,23 +1,23 @@
 <script>
-import BauelementService from '../BauelementService';
+import BaugruppenService from '../BaugruppenService';
 
 export default {
   props: {
     show: Boolean
   },
-  name: 'BauelementComponent',
+  name: 'BaugruppenComponent',
   data() {
     return {
-      bauelements: [],
+      baugruppen: [],
       error: '',
       text: ''
     }
   },
 
   methods: {
-    async createBauelement() {
-      await BauelementService.insertBauelement(this.name, this.gewicht, this.laenge, this.breite, this.hoehe);
-      this.bauelements = await BauelementService.getBauelement();
+    async createBaugruppe() {
+      await BaugruppenService.insertBaugruppe(this.name, this.gewicht, this.laenge, this.breite, this.hoehe);
+      this.baugruppen = await BaugruppenService.getBaugruppe();
       }
   }
 }
@@ -29,20 +29,20 @@ export default {
       <div class="modal-wrapper">
         <div class="modal-container">
           <div class="modal-header">
-            <label name="header">Bauelement hinzufügen</label>
+            <label name="header">Baugruppe hinzufügen</label>
           </div>
 
           <div class="modal-body">
-            <input type="text" id="create-bauelement" v-model="name" placeholder="Name" required>
-            <input type="text" id="create-bauelement" v-model="gewicht" placeholder="Gewicht in g">
-            <input type="text" id="create-bauelement" v-model="laenge" placeholder="Länge in cm">
-            <input type="text" id="create-bauelement" v-model="breite" placeholder="Breite in cm">
-            <input type="text" id="create-bauelement" v-model="hoehe" placeholder="Hoehe in cm">
+            <input type="text" id="create-baugruppe" v-model="name" placeholder="Name" required>
+            <input type="text" id="create-baugruppe" v-model="gewicht" placeholder="Gewicht in g">
+            <input type="text" id="create-baugruppe" v-model="laenge" placeholder="Länge in cm">
+            <input type="text" id="create-baugruppe" v-model="breite" placeholder="Breite in cm">
+            <input type="text" id="create-baugruppe" v-model="hoehe" placeholder="Hoehe in cm">
           </div>
 
           <div class="modal-footer">
             <slot name="footer">
-                <button type="submit" v-on:click="createBauelement" @click="$emit('close')">add</button>
+                <button type="submit" v-on:click="createBaugruppe" @click="$emit('close')">add</button>
               <button
                 class="modal-default-button"
                 @click="$emit('close')"

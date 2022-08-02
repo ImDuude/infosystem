@@ -1,6 +1,7 @@
 <template>
   <div class="container">
-    <h1>Baugruppen</h1>
+    <hr>
+    <h3 class="schrift"> Name | Gewicht | Länge | Breite | Hoehe</h3>
     <hr>
     <p class="error" v-if="error">{{ error }}</p>
     <div class="posts-container">

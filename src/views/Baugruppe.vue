@@ -1,7 +1,5 @@
 <template>
-  <b-button variant="outline-success" id="show-modal" @click="showModal = true">Baugruppe hinzufügen</b-button>
-
-  <b-button variant="outline-success">Success</b-button>
+  <button variant="outline-success" id="show-modal" @click="showModal = true">Baugruppe hinzufügen</button>
 
   <Teleport to="body">
     <!-- use the modal component, pass in the prop -->
