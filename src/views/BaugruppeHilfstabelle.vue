@@ -2,7 +2,7 @@
 
   <BaugruppeHilfstabelleComponent />
 
-  <button class="button-modal" id="show-modal" @click="showModal = true">Baugruppe hinzufügen</button>
+  <button class="button-modal" id="show-modal" @click="showModal = true">Baugruppe Verknüpfung hinzufügen</button>
 
   <Teleport to="body">
     <!-- use the modal component, pass in the prop -->
@@ -17,7 +17,7 @@
 
 <script>
 import BaugruppeHilfstabelleComponent from '../components/BaugruppeHilfstabelleComponent.vue';
-import Modal from '../components/ModalBaugruppe.vue';
+import Modal from '../components/ModalBaugruppeHilfstabelle.vue';
 
 export default {
   components: {
