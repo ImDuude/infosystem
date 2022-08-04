@@ -3,8 +3,8 @@
     <router-link to="/">Home</router-link> |
     <router-link to="/Bauelemente">Bauelemente</router-link> |
     <router-link to="/Baugruppe">Baugruppe</router-link> |
-    <router-link to="/Maschine">Maschine</router-link> |
-    <router-link to="/Table">Table</router-link>
+    <router-link to="/BaugruppeHilfstabelle">Baugruppen Ansicht</router-link> |
+    <router-link to="/Maschine">Maschine</router-link>
   </nav>
   <router-view/>
 </template>
