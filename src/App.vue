@@ -1,5 +1,5 @@
 <template>
-  <nav>
+    <nav>
     <router-link to="/">Home</router-link> |
     <router-link to="/Bauelemente">Bauelemente</router-link> |
     <router-link to="/Baugruppe">Baugruppe</router-link> |
