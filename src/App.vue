@@ -8,14 +8,10 @@
             <router-link to="/BaugruppeHilfstabelle">Baugruppen Ansicht</router-link> |
             <router-link to="/Maschine">Maschine</router-link>
         </nav>
+    <router-view />
     </div>
-    <br />
-    <h3>
-        Diese Anwendung stellt eine mögliche Umsetzung dar, welche so in der Ralität genutzt werden könnte. Inhalt der Anwendung ist die Darstellung von Maschinen samt ihrer Baugruppen und derer einzelnen Bauteile.
 
-        Über die Navigationsleiste kann auf die verschiedenen Komponenten zugegriffen werden.
-    </h3>
-  <router-view/>
+  
 </template>
 
 <style lang="scss">
@@ -39,7 +35,9 @@
 
     nav {
         font-size: 30px;
-        margin-top: -90px;
+        margin-top: -76px;
+        margin-bottom: 20px;
+
         a {
             font-weight: bold;
             color: darkslategray;
@@ -48,16 +46,32 @@
 
             &.router-link-exact-active {
                 color: darkgoldenrod;
-                background-color: honeydew;
+                background-color: lightgray;
                 padding: 10px;
+                border-start-start-radius: 10px;
+                border-start-end-radius: 10px;
+                border-end-start-radius: 10px;
+                border-end-end-radius: 10px;
             }
         }
     }
   .banner {
       display: flex;  
-      width: 90%;
+      width: stretch;
       align-self: center;
       margin-top: -60px;
       margin-bottom: 10px;
+      padding-bottom: 5px;
+      padding-right: 10px;
+      border-bottom-style: solid;
+      border-bottom-color: darkgray;
+      border-bottom-width: 2px;
+  }
+
+  .content {
+      background-color: azure;
+      border-block-style: solid;
+      border-block-width: 1px;
+      border-block-color: lightgray;
   }
 </style>
