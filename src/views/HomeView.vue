@@ -12,25 +12,31 @@
                     <div class="comp">
                         <img class="image1" src="../assets/raspberry.png" alt="">
                         <h3>Test</h3>
-                        Aufbau & Prototyping: CanaKit Raspberry Pi 3 Komplettes Starter Kit
-                        Es ist viel einfacher, Hardware-Prototypen zu erstellen, wenn Sie eine legitime Startbasis haben.
-                        Der Raspberry Pi 3, ein Mini-Linux-Computer, kann als Ausgangspunkt und Gehirn einer Vielzahl von Geräten dienen.
-                        Wir empfehlen das CanaKit Raspberry Pi 3 Complete Starter Kit, um alles von einer Spielekonsole bis zu einem Smart-Home-Lautsprecher zu bauen.
-                        Der mitgelieferte Raspberry Pi 3 Model B-Computer verfügt über Software und allgemeine Ein- / Ausgabestifte zum Ausführen zusätzlicher Lichter, Sensoren oder Schalter.
-                        Das Kit enthält außerdem alles, was Sie zum Starten eines Projekts benötigen, einschließlich Kabel, eines Netzteils, einer microSD-Karte und einer praktischen Hülle.
+                        <div class="text">
+                            Aufbau & Prototyping: CanaKit Raspberry Pi 3 Komplettes Starter Kit
+                            Es ist viel einfacher, Hardware-Prototypen zu erstellen, wenn Sie eine legitime Startbasis haben.
+                            Der Raspberry Pi 3, ein Mini-Linux-Computer, kann als Ausgangspunkt und Gehirn einer Vielzahl von Geräten dienen.
+                            Wir empfehlen das CanaKit Raspberry Pi 3 Complete Starter Kit, um alles von einer Spielekonsole bis zu einem Smart-Home-Lautsprecher zu bauen.
+                            Der mitgelieferte Raspberry Pi 3 Model B-Computer verfügt über Software und allgemeine Ein- / Ausgabestifte zum Ausführen zusätzlicher Lichter, Sensoren oder Schalter.
+                            Das Kit enthält außerdem alles, was Sie zum Starten eines Projekts benötigen, einschließlich Kabel, eines Netzteils, einer microSD-Karte und einer praktischen Hülle.
+                        </div>
+                        
                     </div>
                 </th>
                 <th>
                     <div class="comp">
                         
                         <h3>Test2</h3>
-                        Video- und Fotobearbeitung: Dell XPS 15 Laptop
-                        Die Anschlüsse und Anschlüsse des Dell XPS 15-Laptops bieten Platz für alle Arten von Geräten, die zum Aufnehmen und Übertragen von Videos verwendet werden.
-                        Neben einem riesigen 4K-Display verfügt es über einen leistungsstarken Prozessor und eine Grafikkarte. Dies bedeutet, dass Sie weniger Zeit mit Warten verbringen müssen,
-                        da große Dateien schneller geladen und gerendert werden.
-                        Ein Grund, warum es unsere erste Wahl für Video- und Fotobearbeitungs-Laptops ist, ist, dass die Tastatur bequem genug ist,
-                        um sie während langer Bearbeitungssitzungen zu verwenden. Das Trackpad des XPS reagiert und der Touchscreen ist intuitiv - zwei Funktionen, die dazu beitragen,
-                        präzise Änderungen vorzunehmen.
+                        <div class="text">
+                            Video- und Fotobearbeitung: Dell XPS 15 Laptop
+                            Die Anschlüsse und Anschlüsse des Dell XPS 15-Laptops bieten Platz für alle Arten von Geräten, die zum Aufnehmen und Übertragen von Videos verwendet werden.
+                            Neben einem riesigen 4K-Display verfügt es über einen leistungsstarken Prozessor und eine Grafikkarte. Dies bedeutet, dass Sie weniger Zeit mit Warten verbringen müssen,
+                            da große Dateien schneller geladen und gerendert werden.
+                            Ein Grund, warum es unsere erste Wahl für Video- und Fotobearbeitungs-Laptops ist, ist, dass die Tastatur bequem genug ist,
+                            um sie während langer Bearbeitungssitzungen zu verwenden. Das Trackpad des XPS reagiert und der Touchscreen ist intuitiv - zwei Funktionen, die dazu beitragen,
+                            präzise Änderungen vorzunehmen.
+                        </div>
+                        
                         <img class="image2" src="../assets/Laptop.png" alt="">
                     </div>
                 </th>
@@ -94,5 +100,12 @@
         padding-top: 10px;
         margin-top: 10px;
         margin-bottom: 20px;
+        padding: 10px;
+        border-radius: 7px;
     }
+
+    .text {
+        padding: 10px;
+    }
+
 </style>

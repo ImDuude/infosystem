@@ -60,7 +60,7 @@
       display: flex;  
       width: stretch;
       align-self: center;
-      margin-top: -60px;
+      margin-top: -90px;
       margin-bottom: 10px;
       padding-bottom: 5px;
       padding-right: 10px;
