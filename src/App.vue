@@ -34,9 +34,10 @@
     }
 
     nav {
-        font-size: 30px;
+        font-size: 25px;
         margin-top: -76px;
         margin-bottom: 20px;
+        margin-left: 200px;
 
         a {
             font-weight: bold;
@@ -66,12 +67,5 @@
       border-bottom-style: solid;
       border-bottom-color: darkgray;
       border-bottom-width: 2px;
-  }
-
-  .content {
-      background-color: azure;
-      border-block-style: solid;
-      border-block-width: 1px;
-      border-block-color: lightgray;
   }
 </style>
