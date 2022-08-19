@@ -37,16 +37,13 @@ export default {
             <input type="text" id="create-bauelement" v-model="gewicht" placeholder="Gewicht in g">
             <input type="text" id="create-bauelement" v-model="laenge" placeholder="Länge in cm">
             <input type="text" id="create-bauelement" v-model="breite" placeholder="Breite in cm">
-            <input type="text" id="create-bauelement" v-model="hoehe" placeholder="Hoehe in cm">
+            <input type="text" id="create-bauelement" v-model="hoehe" placeholder="Höhe in cm">
           </div>
 
           <div class="modal-footer">
             <slot name="footer">
-                <button type="submit" v-on:click="createBauelement" @click="$emit('close')">add</button>
-              <button
-                class="modal-default-button"
-                @click="$emit('close')"
-              >Exit</button>
+                <button id="add-button" type="submit" v-on:click="createBauelement" @click="$emit('close')">Hinzufügen</button>
+                <button class="modal-default-button" @click="$emit('close')">Abbruch</button>
             </slot>
           </div>
         </div>
@@ -89,7 +86,7 @@ export default {
 }
 
 .modal-body {
-  margin: 20px 0;
+  margin: 20px;
 }
 
 .modal-default-button {
@@ -117,5 +114,19 @@ export default {
 .modal-leave-to .modal-container {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
+}
+
+#create-bauelement {
+  margin-bottom: 5px;
+}
+
+#add-button {
+  margin-right: 5px;
+}
+
+.modal-footer {
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 </style>
