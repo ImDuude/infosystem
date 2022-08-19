@@ -1,7 +1,7 @@
 <template>
     <div class="content">
-            Diese Anwendung stellt eine mögliche Umsetzung dar, welche so in der Ralität genutzt werden könnte. Inhalt der Anwendung ist die Darstellung von Maschinen samt ihrer Baugruppen und derer einzelnen Bauteile. Einige Teile des Inhalts, besonders des Homescreens sind Platzhalter und stellen einen möglichen Aufbau dar.<br /> <br />
-            Über die Navigationsleiste kann auf die verschiedenen Komponenten zugegriffen werden.
+            Diese Anwendung stellt eine mÃ¶gliche Umsetzung dar, welche so in der RalitÃ¤t genutzt werden kÃ¶nnte. Inhalt der Anwendung ist die Darstellung von Maschinen samt ihrer Baugruppen und derer einzelnen Bauteile. Einige Teile des Inhalts, besonders des Homescreens sind Platzhalter und stellen einen mÃ¶glichen Aufbau dar.<br /> <br />
+            Ã¼ber die Navigationsleiste kann auf die verschiedenen Komponenten zugegriffen werden.
         <br />
     </div>
     <br />
@@ -10,15 +10,15 @@
             <tr>
                 <th>
                     <div class="comp">
-                        <img class="image1" src="../assets/raspberry.png" alt="">
+                        <img class="image1" src="../assets/Raspberry.png" alt="">
                         <h3>Test</h3>
                         <div class="text">
                             Aufbau & Prototyping: CanaKit Raspberry Pi 3 Komplettes Starter Kit
                             Es ist viel einfacher, Hardware-Prototypen zu erstellen, wenn Sie eine legitime Startbasis haben.
-                            Der Raspberry Pi 3, ein Mini-Linux-Computer, kann als Ausgangspunkt und Gehirn einer Vielzahl von Geräten dienen.
+                            Der Raspberry Pi 3, ein Mini-Linux-Computer, kann als Ausgangspunkt und Gehirn einer Vielzahl von GerÃ¤ten dienen.
                             Wir empfehlen das CanaKit Raspberry Pi 3 Complete Starter Kit, um alles von einer Spielekonsole bis zu einem Smart-Home-Lautsprecher zu bauen.
-                            Der mitgelieferte Raspberry Pi 3 Model B-Computer verfügt über Software und allgemeine Ein- / Ausgabestifte zum Ausführen zusätzlicher Lichter, Sensoren oder Schalter.
-                            Das Kit enthält außerdem alles, was Sie zum Starten eines Projekts benötigen, einschließlich Kabel, eines Netzteils, einer microSD-Karte und einer praktischen Hülle.
+                            Der mitgelieferte Raspberry Pi 3 Model B-Computer verfogt ï¿½ber Software und allgemeine Ein- / Ausgabestifte zum AusfÃ¼hren zusÃ¤tzlicher Lichter, Sensoren oder Schalter.
+                            Das Kit enthÃ¤lt auÃŸerdem alles, was Sie zum Starten eines Projekts benÃ¶tigen, einschlieÃŸlich Kabel, eines Netzteils, einer microSD-Karte und einer praktischen HÃ¼lle.
                         </div>
                         
                     </div>
@@ -29,12 +29,12 @@
                         <h3>Test2</h3>
                         <div class="text">
                             Video- und Fotobearbeitung: Dell XPS 15 Laptop
-                            Die Anschlüsse und Anschlüsse des Dell XPS 15-Laptops bieten Platz für alle Arten von Geräten, die zum Aufnehmen und Übertragen von Videos verwendet werden.
-                            Neben einem riesigen 4K-Display verfügt es über einen leistungsstarken Prozessor und eine Grafikkarte. Dies bedeutet, dass Sie weniger Zeit mit Warten verbringen müssen,
-                            da große Dateien schneller geladen und gerendert werden.
-                            Ein Grund, warum es unsere erste Wahl für Video- und Fotobearbeitungs-Laptops ist, ist, dass die Tastatur bequem genug ist,
-                            um sie während langer Bearbeitungssitzungen zu verwenden. Das Trackpad des XPS reagiert und der Touchscreen ist intuitiv - zwei Funktionen, die dazu beitragen,
-                            präzise Änderungen vorzunehmen.
+                            Die AnschlÃ¼sse und AnschlÃ¼sse des Dell XPS 15-Laptops bieten Platz fÃ¼r alle Arten von GerÃ¤ten, die zum Aufnehmen und Ã¼bertragen von Videos verwendet werden.
+                            Neben einem riesigen 4K-Display verfÃ¼gt es Ã¼ber einen leistungsstarken Prozessor und eine Grafikkarte. Dies bedeutet, dass Sie weniger Zeit mit Warten verbringen mÃ¼ssen,
+                            da groÃŸe Dateien schneller geladen und gerendert werden.
+                            Ein Grund, warum es unsere erste Wahl fÃ¼r Video- und Fotobearbeitungs-Laptops ist, ist, dass die Tastatur bequem genug ist,
+                            um sie wÃ¤hrend langer Bearbeitungssitzungen zu verwenden. Das Trackpad des XPS reagiert und der Touchscreen ist intuitiv - zwei Funktionen, die dazu beitragen,
+                            prÃ¤zise Ã¤nderungen vorzunehmen.
                         </div>
                         
                         <img class="image2" src="../assets/Laptop.png" alt="">
