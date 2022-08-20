@@ -1,7 +1,7 @@
 <template>
     <div class="content">
-            Diese Anwendung stellt eine mögliche Umsetzung dar, welche so in der Ralität genutzt werden könnte. Inhalt der Anwendung ist die Darstellung von Maschinen samt ihrer Baugruppen und derer einzelnen Bauteile. Einige Teile des Inhalts, besonders des Homescreens sind Platzhalter und stellen einen möglichen Aufbau dar.<br /> <br />
-            über die Navigationsleiste kann auf die verschiedenen Komponenten zugegriffen werden.
+            Diese Anwendung stellt eine mögliche Umsetzung dar, welche so in der Realität genutzt werden könnte. Inhalt der Anwendung ist die Darstellung von Maschinen samt ihrer Baugruppen und derer einzelnen Bauteile. Einige Teile des Inhalts, besonders des Homescreens sind Platzhalter und stellen einen möglichen Aufbau dar.<br /> <br />
+            Über die Navigationsleiste kann auf die verschiedenen Komponenten zugegriffen werden.
         <br />
     </div>
     <br />

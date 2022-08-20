@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <hr>
-    <h3 class="schrift"> Name | Gewicht | Länge | Breite | Hoehe</h3>
+    <h3 class="schrift"> Name | Gewicht | Länge | Breite | Höhe</h3>
     <hr>
     <p class="error" v-if="error">{{ error }}</p>
     <div class="posts-container">
